@@ -1,0 +1,73 @@
+/* 2 секция */
+.section{
+    width: 100%;
+    padding-bottom: 120px; 
+    background: #F3F3F3;
+    /* clip-path: polygon(73% 0, 57% 5%, 44% 0, 26% 5%, 13% 0, 0 0, 0 100%, 100% 100%, 100% 0, 88% 4%); */
+    clip-path: polygon(16% 5%, 0 0, 0 100%, 15% 94%, 30% 100%, 46% 94%, 63% 100%, 79% 93%, 100% 100%, 100% 0, 81% 5%, 64% 0, 50% 5%, 35% 0);
+}
+.bgreen{
+    position: absolute;
+    width: 666.422px;
+    height: 1001px;
+    top: 540px;
+    left: 620px;
+    bottom: 50px;
+    z-index: -1;
+    background: rgba(168, 255, 118, 0.30);
+    filter: blur(310px);;   
+}
+.title-row{
+    font-family:'Montserrat', sans-serif;
+    color: #000;
+    text-align: center; 
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.farcty{
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    padding-top: 94px;
+}
+/* card */
+.products-items{
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(3, 281px);
+    gap: 44px; /* Отступ между карточками*/
+}
+.products-item{
+    display: grid;
+    width: 280px;
+    height: 361px;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 1px 3px 0px 
+    rgba(29, 30, 38, 0.10), 
+    0px 3px 6px 0px 
+    rgba(29, 30, 38, 0.10);
+}
+.products-item-image{
+    padding: 32px 76px 32px 76px;
+}
+.products-item-title{
+    color: #2C2C2C;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    padding-right: 19px;
+}
+.products-item-text{
+    color: #2C2C2C;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0 10px 32px 10px;
+}
